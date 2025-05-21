@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Check</title>
+    <link rel="stylesheet" href="g.css">
+    <script src="g.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Stock Check</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="order-tracker.html">Order Tracker</a>
+        <a href="payment-history.html">Payment History</a>
+    </nav>
+    <div class="container">
+        <h2>Check Stock Availability</h2>
+        <input type="text" id="product-name" placeholder="Enter Product Name">
+        <button onclick="checkStock()">Check Stock</button>
+        <p id="stock-status"></p>
+    </div>
+</body>
+</html>

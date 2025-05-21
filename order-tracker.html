@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracker</title>
+    <link rel="stylesheet" href="g.css">
+    <script src="g.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Order Tracker</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="stock-check.html">Stock Check</a>
+        <a href="payment-history.html">Payment History</a>
+    </nav>
+    <div class="container">
+        <h2>Track Your Order</h2>
+        <input type="text" id="order-id" placeholder="Enter Order ID">
+        <button onclick="trackOrder()">Track</button>
+        <p id="order-status"></p>
+    </div>
+</body>
+</html>
